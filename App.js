@@ -1,3 +1,4 @@
+import {registerRootComponent} from 'expo';
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
 import Navigation from './src/navigation';
@@ -21,4 +22,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+registerRootComponent(App);
